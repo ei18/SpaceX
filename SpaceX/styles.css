@@ -1,0 +1,31 @@
+h1,
+p,
+.container {
+  text-align: center;
+  color: white;
+
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.imagenContainer{
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+}
+
+.imagePpal{
+    width: 40rem;
+    opacity: 0.8;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+    gap: 5rem;
+}
